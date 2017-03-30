@@ -1,0 +1,124 @@
+.product-box {
+  background-color: #ffffff;
+  display: block;
+
+  margin-bottom: 8px;
+  margin-left:auto;
+  margin-right:auto;
+    @media (min-width: 500px) {
+      display: inline-block;
+      margin-left: 0;
+      margin-right:0;
+      vertical-align: middle;
+    }
+    @media (min-width: 650px) {
+      vertical-align: bottom;
+    }
+    &-standart{
+      width: 100%;
+      padding-top: 7px;
+      @media (min-width: 450px) {
+        width: 52%;
+      }
+      @media (min-width: 500px) {
+        width: 32.5%;
+      }
+    }
+    &-large {
+      width: 100%;
+      padding-top: 5px;
+      padding-bottom: 2px;
+        @media (min-width: 500px) {
+          width: 66%;
+        }
+    }
+    &__elem {
+      font-family: $robotoMedium;
+      padding: 12px 44px 6px 10px;
+      font-size: 13px;
+      line-height: 1.3;
+      margin-bottom: 0;
+      color: #565555;
+    }
+    &__list {
+      @include clearfix;
+      border-top: 1px solid #ededed;
+        &__item {
+          float: left;
+          font-family: $robotoMedium;
+              &__item2 {
+                font-size: 16px;
+              }
+        }
+    }
+}
+
+.list-elem {
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+
+  color: #3e3f3f;
+  border-right: 1px solid #ededed;
+}
+
+.currency_item {
+  position: absolute;
+  top: 12px;
+  left: 26px;
+}
+
+.price_item-position-left-standart {
+  right: 25px;
+}
+
+.price_item-position-left-large {
+  right: 18px;
+}
+
+
+.price_item {
+  position: absolute;
+  top: 6px;
+}
+
+.list-elem-text {
+  padding: 8px 52px 0 14px;
+  font-size: 11px;
+  border-right: 1px solid #ededed;
+  @media (min-width: 320px) and (max-width: 800px) {
+    font-size: calc(0.0104 * 100vw + 7.672px);
+  }
+    @media (min-width: 801px) {
+      font-size: 16px;
+    }
+    @media (min-width: 945px) {
+      padding: 8px 92px 0 14px;
+    }
+}
+
+.margin-right_first {
+  margin-left:auto;
+  margin-right: auto;
+  @media (min-width: 500px) {
+    margin-right: 0;
+    margin-left:0;
+  }
+    @media (min-width: 612px) {
+      margin-right: 2px;
+    }
+    @media (min-width: 980px) {
+      margin-right: 6px;
+    }
+}
+
+
+.margin-right {
+  margin-right:auto;
+    @media (min-width: 500px) {
+      margin-right: 0;
+    }
+    @media (min-width: 612px) {
+      margin-right: 4.3px;
+    }
+}

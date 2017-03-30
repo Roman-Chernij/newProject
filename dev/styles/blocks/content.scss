@@ -1,0 +1,15 @@
+.content {
+  @include clearfix;
+  width: 100%;
+  float: none;
+  margin: 0 auto;
+  @media (min-width: 890px) {
+    width: 71.5%;
+    float: right;
+  }
+  @media (min-width: 1110px) {
+    width: 69.5%;
+    margin: 0;
+  }
+}
+

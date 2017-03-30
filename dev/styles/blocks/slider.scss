@@ -1,0 +1,193 @@
+.slider-container {
+  background-image: url('../../img/sliderBg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include clearfix;
+}
+
+.slider-wrapper {
+  width: 100%;
+  margin: 0;
+  @media (min-width: 1140px) {
+    width: 1130px;
+    margin: 0 auto;
+  }
+  @include clearfix;
+}
+
+.sliderBox {
+  margin-top: 153px;
+  width: 100%;
+  float: none;
+  @media (min-width: 460px) {
+    width: 40%;
+    float: left;
+  }
+  @media (min-width: 830px) {
+   width: 44%;
+  }
+    &__size {
+      color: #fff;
+      font-family: $OpenSansLight;
+      font-size: 19px;
+      width: 100%;
+      padding-left: 0;
+      line-height: 1.12;
+      @media (min-width: 1200px) {
+        padding-left: 50px;
+      }
+      @media (min-width: 320px) and (max-width: 1130px) {
+        font-size: calc(0.0401 * 100vw + 6.168px);
+      }
+      @media (min-width: 1131px) {
+        font-size: 51.5px;
+      }
+    }
+    &__text {
+      width: 100%;
+      color: #fff;
+      font-family: $OpenSansLight;
+      margin-top: 18px;
+      padding-left: 0;
+      font-size: 11px;
+      @media (min-width: 1200px) {
+        padding-left: 57px;
+      }
+      @media (min-width: 320px) and (max-width: 900px) {
+        font-size: calc(0.0095 * 100vw + 7.96px);
+      }
+      @media (min-width: 901px) {
+        font-size: 16.6px;
+      }
+    }
+}
+
+.slider {
+  padding-bottom: 85px;
+  padding-left:10px;
+  padding-right:10px;
+  @media (min-width: 1160px) {
+    padding-left:0;
+    padding-right:0;
+  }
+  @include clearfix;
+    &__girl {
+      display: none;
+        @media (min-width: 460px) {
+          background-image: url('../img/girl.png');
+          width: 60%;
+          height: 293px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          float: right;
+          margin-top: 42.1px;
+          margin-left: 0;
+          border-radius: 50%;
+          display: block;
+        }
+        @media (min-width: 580px) {
+          height: 309px;
+        }
+        @media (min-width: 580px) {
+          height: 343px;
+        }
+        @media (min-width: 610px) {
+          width: 56%;
+          height: 354px;
+        }
+        @media (min-width: 675px) {
+          height: 389px;
+        }
+        @media (min-width: 740px) {
+          height: auto;
+        }
+        @media (min-width: 880px) {
+          width: 54%;
+        }
+        @media (min-width: 1270px) {
+          width: 623px;
+          height: 617px;
+          float: left;
+          margin-left: -5.5px;
+        }
+      }
+}
+
+.product-slider {
+  display: none;
+  @media (min-width: 500px) {
+    display: block;
+    background-image: url('../img/roundSlide.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    margin-left: 61%;
+    position: relative;
+    margin-top: 70%;
+  }
+  @media (min-width: 580px) {
+    margin-left: 56%;
+    width: 135px;
+    height: 135px;
+    margin-top: 60.5%;
+  }
+  @media (min-width: 700px) {
+    margin-left: 60%;
+  }
+  @media (min-width: 790px) {
+    margin-left: 56%;
+    width: 165px;
+    height: 165px;
+  }
+  @media (min-width: 960px) {
+    margin-left: 67%;
+  }
+  @media (min-width: 1160px) {
+    margin-left: 69%;
+    width: 185px;
+    height: 185px;
+  }
+  @media (min-width: 1370px) {
+    margin-left: 76.3%;
+  }
+    &__name {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -20%;
+      margin-left: -27%;
+      @media (min-width: 1000px) {
+        margin-top: -27%;
+        margin-left: -31%;
+      }
+        &__item {
+          color: #fff;
+          font-family: $OpenSansLight;
+        }
+    }
+}
+
+.stule {
+    &-first {
+      font-size: 15px;
+      line-height: 0.85;
+      @media (min-width: 320px) and (max-width: 1160px) {
+        font-size: calc(0.0196 * 100vw + 8.728px);
+      }
+      @media (min-width: 1161px) {
+        font-size: 31.5px;
+      }
+    }
+    &-last {
+      font-size: 9px;
+      line-height: 1.9;
+      @media (min-width: 320px) and (max-width: 1160px) {
+        font-size: calc(0.0125 * 100vw + 5px);
+      }
+      @media (min-width: 1161px) {
+        font-size: 19.5px;
+      }
+    }
+}

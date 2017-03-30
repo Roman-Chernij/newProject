@@ -1,0 +1,105 @@
+.footer {
+  background-image: url('../../img/footer-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 37px;
+}
+
+.footer-top {
+  background-color: #fff;
+  opacity: 0.7;
+  padding-bottom: 65px;
+}
+
+.footer-top-text {
+  font-family: $robotoBold;
+  padding-top: 28px;
+  padding-left: 3px;
+
+  text-transform: uppercase;
+}
+
+.footer-top-text_size {
+    &-about {
+      font-size: 18px;
+    }
+    &-social {
+      font-size: 20.5px;
+      margin: 0;
+      padding-left: 70px;
+    }
+    &-contact {
+      font-size: 18.5px;
+      margin: 0;
+      padding-top: 32px;
+      padding-left: 50px;
+    }
+}
+
+.about {
+  width: 29.8%;
+  float: left;
+}
+
+.about-text {
+  font-family: $robotoMedium;
+  margin: 0;
+  padding: 27px 57px 0 7px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.social {
+  width: 23.7%;
+  float: left;
+}
+
+.social__list {
+  padding: 13px 45px 0 70px;
+  border-right: 1px solid #e1e0df;
+  border-left: 1px solid #e1e0df;
+}
+
+.icon__list__elem {
+  padding-bottom:11px;
+}
+
+.social__list__item {
+  padding-bottom:11px;
+}
+
+.contact {
+  width: 29%;
+  float: left;
+}
+
+.contact-list {
+  padding: 18px 0 0 53px;
+}
+
+.contact-list-elem {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.contact-list-elem-link {
+  font-family: $robotoMedium;
+  color: #393939;
+}
+
+.adress {
+  width: 17%;
+  float: right;
+  padding-top: 72px;
+}
+
+.adress-list {
+  padding-left: 5px;
+}
+
+.adress-list-item {
+  font-family: $robotoMedium;
+  color: #747474;
+  font-size: 14px;
+  line-height: 1.5;
+}

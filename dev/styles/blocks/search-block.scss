@@ -1,0 +1,100 @@
+.search_block {
+  @include clearfix;
+}
+
+.search {
+  @include clearfix;
+  width: 100%;
+  float: none;
+    @media (min-width: 520px) {
+      width: 80%;
+      float: left;
+    }
+    @media (min-width: 670px) {
+      width: 60%;
+    }
+    @media (min-width: 900px) {
+      width: 45.1%;
+    }
+    &__elem1 {
+      float: left;
+      width: 36%;
+      padding: 13px 0 0 0px;
+      font-size: 11px;
+      font-family: $robotoMedium;
+      color: #df1f26;
+      text-transform: uppercase;
+      @media (min-width: 390px) {
+        font-size: 14px;
+      }
+      @media (min-width: 520px) {
+        padding: 13px 0 0 16px;
+      }
+    }
+    &__elem2 {
+      float: right;
+      width: 64%;
+    }
+}
+
+.form {
+  padding-top: 7px;
+  position: relative;
+  float: left;
+    &__input-search {
+      width: 100%;
+      background-color: #c9c9c9;
+      border: none;
+      font-size: 16px;
+      padding: 5px 36px 4px 7px;
+      color: #000000;
+    }
+    &__input-submit {
+      display: none;
+    }
+    &__label-submit {
+      display: block;
+      position: absolute;
+      top: 5px;
+      right: 0;
+      width: 32px;
+      height: 29px;
+      background-color: #df1f26;
+      background-image: url('../../img/iconSprite.png');
+      background-position: -74px 5px;
+      background-repeat: no-repeat;
+    }
+}
+
+.icon {
+  width: 100%;
+  float: none;
+    @media (min-width: 520px) {
+      width: 20%;
+      float: right;
+    }
+    @media (min-width: 670px) {
+      width: 40%;
+    }
+    @media (min-width: 900px) {
+      width: 54%;
+    }
+    &__list {
+      margin-left: 10px;
+      @include clearfix;
+        @media (min-width: 670px) {
+          margin-left: 50%;
+        }
+        @media (min-width: 990px) {
+          margin-left: 84.87%;
+        }
+        &__elem {
+          float: left;
+          padding-top: 2px;
+            &_icon {
+              color: #d52229;
+              font-size: 28px
+            }
+        }
+    }
+}

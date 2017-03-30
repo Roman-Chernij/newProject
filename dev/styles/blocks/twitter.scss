@@ -1,0 +1,67 @@
+.twitter {
+  padding: 30px 0 0 15px;
+  float: none;
+  width: 100%;
+  margin: 0 auto;
+  @media (min-width: 450px) {
+    width: 60%;
+    margin: 0 auto;
+  }
+  @media (min-width: 500px) {
+    float: right;
+    width: 55%;
+    margin: 0;
+  }
+  @media (min-width: 600px) {
+    width: 45%;
+  }
+  @media (min-width: 890px) {
+    float: none;
+    width: 100%;
+  }
+    &__title {
+      font-family: $robotoMedium;
+      font-size: 18px;
+        &:hover {
+        cursor: default;
+        }
+    }
+}
+.twiter-box__elem-widht {
+  width: 87%;
+}
+.twiter-box {
+  padding-top: 20px;
+  padding-bottom: 11px;
+    &:hover {
+      cursor: default;
+    }
+    &__elem {
+      display: inline-block;
+        &__list {
+          padding-left: 11px;
+          padding-right: 17px;
+            &__item {
+              color: #838383;
+              font-family: $mediumItalic;
+              font-size: 13px;
+              line-height: 1.5;
+                &_link {
+                  &:hover {
+                    color: #9b2e10;
+                    cursor: pointer;
+                    transition: color ease-out 200ms;
+                  }
+                }
+            }
+        }
+    }
+}
+
+.icon-twitter-img {
+  background-image: url('../../img/iconSprite.png');
+  width: 26px;
+  height: 25px;
+  background-position-x: -115px;
+  vertical-align: top;
+}

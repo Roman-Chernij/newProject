@@ -1,0 +1,25 @@
+.btn-box {
+  padding: 5px 0 4px 6px;
+    &__btn-elem {
+      font-size: 13px;
+      padding: 5px 20px 4px 20px;
+      text-transform: uppercase;
+      background-color: #d7252b;
+      color:#fff;
+      &:hover {
+        background-color: #fc0b24;
+        transition: background-color ease-in-out 2s00ms;
+      }
+      &:active {
+        background-color: #970b1b;
+        transition: background-color ease-out 300ms;
+      }
+        @media (min-width: 980px) {
+          padding: 5px 33px 4px 31px;
+        }
+    }
+}
+
+.btn-padding-left {
+  padding-left: 13px;
+}

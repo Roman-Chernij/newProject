@@ -1,0 +1,13 @@
+.icon-theme {
+  font-size: 15.3px;
+  color: #fff;
+  background-color: #d52229;
+  padding: 1px 0 1px 0;
+  margin-right: 12px;
+}
+
+.social-link_theme:hover>.icon-theme {
+  background-color: #d55e2d;
+  color: #ffed95;
+  transition: all linear 400ms;
+}

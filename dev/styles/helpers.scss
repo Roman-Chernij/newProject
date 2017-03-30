@@ -1,0 +1,95 @@
+.headerTopLine {
+  margin: 0;
+  width:100%;
+  @include clearfix;
+}
+
+.block {
+  float: none;
+  width: 100%;
+  @media (min-width: 700px) {
+    float: right;
+    width: 34%;
+  }
+    &__elem {
+      @include clearfix;
+      border-right: 1px solid #ebeaea;
+        &__item {
+          float: left;
+          padding: 12px 19px 12px 19px;
+          background-color: #eeeeee;
+          border-right: 1px solid #ebeaea;
+          border-left:1px solid #ebeaea;
+          margin-right:1px;
+          font-family: $robotoMedium;
+          font-size: 14px;
+            @media (min-width: 850px) {
+              padding: 31px 19px 23px 19px;
+            }
+          &:nth-child(2) {
+            padding: 12px 19px 12px 19px;
+            @media (min-width: 850px) {
+              padding: 31px 11px 23px 13px;
+            }
+          }
+          &:last-child {
+
+            color: #e70505;
+            font-size: 14px;
+            position: relative;
+            padding: 12px 19px 12px 19px;
+            @media (min-width: 850px) {
+              padding: 30px 46.7px 23px 25px;
+            }
+          }
+          &:hover {
+            cursor: pointer;
+            background-color: #e4e4e4;
+            transition: background-color linear 300ms;
+          }
+            &--item2 {
+              color: #000;
+            }
+            &--icon {
+              width: 20px;
+              height: 22px;
+              position: absolute;
+              top: 28px;
+              right: 24px;
+              background-image: url('../img/iconSprite.png');
+              background-position-x: (0);
+            }
+        }
+    }
+}
+
+.nav {
+  background-color: #000000;
+  border-top: 1px solid #89883e;
+}
+
+.menu {
+  display: none;
+    @media (min-width: 650px) {
+      display: block;
+    }
+    &__list {
+      @include clearfix;
+      float: left;
+      padding: 13px 6px 15px 14px;
+        @media (min-width: 795px) {
+          padding: 18px 12px 16px 29px;
+        }
+        &__link {
+          color: #fff;
+          font-family: $MyriadProRegular;
+          text-transform: uppercase;
+          font-size: 13px;
+            &:hover {
+              color: #d2d2d2;
+              transition: color linear 200ms;
+              border-bottom: 1px solid #d2d2d2;
+          }
+        }
+    }
+}

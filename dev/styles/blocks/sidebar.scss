@@ -1,0 +1,18 @@
+.sidebar {
+  width: 100%;
+  float: none;
+  margin-top: 5px;
+  padding-left: 8px;
+  padding-bottom: 10px;
+    @media (min-width: 890px) {
+      width: 28.1%;
+      float: left;
+      border-right: 1px solid #bebebe;
+    }
+  @media (min-width: 950px) {
+    padding-bottom: 55px;
+  }
+    @media (min-width: 950px) {
+      padding-bottom: 237px;
+    }
+}

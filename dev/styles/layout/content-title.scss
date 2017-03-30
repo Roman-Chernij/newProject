@@ -1,0 +1,11 @@
+.content__title {
+  font-family: $robotoMedium;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 13px 0 13px 1px;
+  font-size: 20px;
+  font-weight: bold;
+    &__item {
+      color: #e70505;
+    }
+}

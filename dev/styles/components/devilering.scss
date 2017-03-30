@@ -1,0 +1,44 @@
+.delivering {
+display: none;
+      @media (min-width: 890px) {
+        background-image: linear-gradient(to bottom, #e5e5e5, #eeeeee);
+        padding-top: 38px;
+        padding-bottom: 25px;
+        width: 85%;
+        margin: 38px auto 0;
+        display: block;
+      }
+      &__list {
+        padding: 13px 0 0 15px;
+          &__item {
+            text-transform: uppercase;
+            line-height: 1;
+              &_font-light {
+                font-size: 30px;
+                font-weight: 100;
+                font-family: $robotoLight;
+                  @media (min-width: 1020px) {
+                    font-size: 37px;
+                  }
+              }
+              &_font-bold {
+                font-weight: bold;
+                font-family: $robotoMedium;
+                font-size: 27px;
+                  @media (min-width: 1020px) {
+                    font-size: 33px;
+                  }
+              }
+          }
+      }
+}
+
+.delivering-box {
+  max-width: 219px;
+  min-height: 73px;
+  margin: 0 auto;
+    &__item {
+      width: 100%;
+      height: 100%;
+    }
+}

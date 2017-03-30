@@ -1,0 +1,38 @@
+.footer-lower {
+  background-image: url('../../img/footer-lower-bg.jpg');
+  background-size: cover;
+}
+
+.footer-nav-boby {
+  padding: 18px 0 30px 9px;;
+}
+
+.footer-nav-boby-elem {
+  list-style-type: disc;
+  float: left;
+  margin-right: 19px;
+  &:first-child {
+    list-style-type: none;
+  }
+}
+
+.footer-nav-boby-elem-link {
+  font-family: $robotoBold;
+  color: #c3c3c3;
+}
+
+.footer-lower-text {
+  font-family: $OpenSansLight;
+  color: #686565;
+  text-transform: uppercase;
+  width: 25%;
+  font-size: 15.4px;
+  float: right;
+  padding-top: 14px;
+  padding-left: 4px;
+}
+
+.footer-nav {
+  width: 75%;
+  float: left;
+}

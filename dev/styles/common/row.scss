@@ -1,0 +1,8 @@
+.row {
+  width: 100%;
+  @include clearfix;
+    &-item {
+      background-color: #eeeeee;
+      padding-bottom: 34px;
+    }
+}

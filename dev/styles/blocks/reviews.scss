@@ -1,0 +1,56 @@
+.reviews {
+  margin-top: 15px;
+  padding: 37px 26px 20px 13px;
+    &__title {
+      font-family: $robotoMedium;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 900;
+    }
+    &__body {
+      background-color: #f6f3f3;
+      margin-top: 22px;
+      padding: 26px 19px 17px 26px;
+
+        &__item {
+          font-family: $PTsans-Italic;
+          margin-bottom: 0;
+          font-size: 13px;
+          line-height: 1.6;
+        }
+    }
+}
+
+.reviews-author__list {
+  padding-top: 19px;
+}
+
+.reviews-author__list__elem {
+  font-family: $robotoMedium;
+  display: inline-block;
+  font-size: 13.5px;
+}
+
+.reviews-author {
+  position: relative;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 24px solid #f6f3f3;
+  border-right: 25px solid transparent;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 41px
+}
+
+
+.icon-man {
+  background-image: url('../../img/iconSprite.png');
+  width: 28px;
+  height: 27px;
+  background-position-x: -150px;
+  margin-right: 18px;
+}
