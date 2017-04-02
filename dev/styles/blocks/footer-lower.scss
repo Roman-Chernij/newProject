@@ -4,35 +4,65 @@
 }
 
 .footer-nav-boby {
-  padding: 18px 0 30px 9px;;
+  padding: 18px 0 30px 9px;
+  text-align: center;
+    @media (min-width: 500px) {
+      text-align: left;
+    }
 }
 
 .footer-nav-boby-elem {
-  list-style-type: disc;
-  float: left;
-  margin-right: 19px;
+  list-style-type: none;
+  float: none;
+  margin-right: 0;
   &:first-child {
     list-style-type: none;
+  }
+  @media (min-width: 500px) {
+    list-style-type: disc;
+    float: left;
+    margin-right: 19px;
   }
 }
 
 .footer-nav-boby-elem-link {
   font-family: $robotoBold;
   color: #c3c3c3;
+  font-size: 10px;
+    @media (min-width: 840px) {
+      font-size: 12px;
+    }
 }
 
 .footer-lower-text {
-  font-family: $OpenSansLight;
-  color: #686565;
-  text-transform: uppercase;
-  width: 25%;
-  font-size: 15.4px;
-  float: right;
-  padding-top: 14px;
-  padding-left: 4px;
+  display: none;
+    @media (min-width: 970px) {
+      font-size: 15.4px;
+    }
+    @media (min-width: 840px) {
+      width: 25%;
+    }
+    @media (min-width: 740px) {
+      font-family: $OpenSansLight;
+      color: #686565;
+      text-transform: uppercase;
+      width: 35%;
+      font-size: 13px;
+      float: right;
+      padding-top: 14px;
+      padding-left: 4px;
+      display: block;
+    }
 }
 
 .footer-nav {
-  width: 75%;
-  float: left;
+  width: 100%;
+  float: none;
+    @media (min-width: 840px) {
+      width: 75%;
+    }
+  @media (min-width: 740px) {
+    width: 65%;
+    float: left;
+  }
 }

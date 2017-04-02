@@ -3,8 +3,9 @@
  */
 (function ($) {
 
-    $('.slider').slick({
+    $('.slider-wrapper').slick({
         infinite: false,
         dots: false,
     });
+
 })(jQuery);

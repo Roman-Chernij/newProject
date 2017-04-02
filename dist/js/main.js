@@ -45,8 +45,9 @@ d.slice(e-c+1,e+c+2).addClass("slick-active").attr("aria-hidden","false")),0===a
  */
 (function ($) {
 
-    $('.slider').slick({
+    $('.slider-wrapper').slick({
         infinite: false,
         dots: false,
     });
+
 })(jQuery);

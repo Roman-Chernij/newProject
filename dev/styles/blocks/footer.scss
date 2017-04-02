@@ -26,19 +26,29 @@
     &-social {
       font-size: 20.5px;
       margin: 0;
-      padding-left: 70px;
+      padding-left: 0;
+      @media (min-width: 940px) {
+        padding-left: 70px;
+      }
     }
     &-contact {
       font-size: 18.5px;
       margin: 0;
       padding-top: 32px;
-      padding-left: 50px;
+      padding-left: 0;
+      @media (min-width: 940px) {
+        padding-left: 50px;
+      }
     }
 }
 
 .about {
-  width: 29.8%;
-  float: left;
+  width: 100%;
+  float: none;
+    @media (min-width: 940px) {
+      width: 29.8%;
+      float: left;
+    }
 }
 
 .about-text {
@@ -50,14 +60,23 @@
 }
 
 .social {
-  width: 23.7%;
-  float: left;
+  width: 100%;
+  float: none;
+    @media (min-width: 940px) {
+      width: 23.7%;
+      float: left;
+    }
 }
 
 .social__list {
-  padding: 13px 45px 0 70px;
-  border-right: 1px solid #e1e0df;
-  border-left: 1px solid #e1e0df;
+  padding: 13px 45px 0 0;
+  border-right: none;
+  border-left: none;
+  @media (min-width: 940px) {
+    border-right: 1px solid #e1e0df;
+    border-left: 1px solid #e1e0df;
+    padding: 13px 45px 0 70px;
+  }
 }
 
 .icon__list__elem {
@@ -69,12 +88,19 @@
 }
 
 .contact {
-  width: 29%;
-  float: left;
+  width: 100%;
+  float: none;
+    @media (min-width: 940px) {
+      width: 29%;
+      float: left;
+    }
 }
 
 .contact-list {
-  padding: 18px 0 0 53px;
+  padding: 18px 0 0 0;
+    @media (min-width: 940px) {
+      padding: 18px 0 0 53px;
+    }
 }
 
 .contact-list-elem {
@@ -88,9 +114,13 @@
 }
 
 .adress {
-  width: 17%;
-  float: right;
+  width: 100%;
+  float: none;
   padding-top: 72px;
+    @media (min-width: 940px) {
+      width: 17%;
+      float: right;
+    }
 }
 
 .adress-list {
@@ -100,6 +130,9 @@
 .adress-list-item {
   font-family: $robotoMedium;
   color: #747474;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5;
+    @media (min-width: 970px) {
+      font-size: 14px;
+    }
 }
