@@ -1,0 +1,49 @@
+.slick-prev {
+  top: 90px;
+  left: 0;
+  background-position: -20px 9px;
+  @media (min-width: 1270px) {
+    top: 283px;
+  }
+  @media (min-width: 1400px) {
+    left: -100px;
+  }
+  @media (min-width: 1490px) {
+    left: -159px;
+  }
+  @media (min-width: 1570px) {
+    left: -189px;
+  }
+}
+
+.slick-next {
+  top: 90px;
+  right: 0;
+  background-position: -42px 9px;
+  @media (min-width: 1270px) {
+    top: 283px;
+  }
+  @media (min-width: 1400px) {
+    right: -100px;
+  }
+  @media (min-width: 1490px) {
+    right: -156px;
+  }
+    @media (min-width: 1570px) {
+      right: -196px;
+    }
+}
+
+.slick-arrow {
+  position: absolute;
+  font-size: 0;
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  background-image: url('../img/iconSprite.png');
+  background-repeat: no-repeat;
+  background-color: #2b3552;
+  z-index: 100;
+}

@@ -1,5 +1,5 @@
 .slider-container {
-  background-image: url('../../img/sliderBg.jpg');
+  background-image: url('../img/sliderBg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   @include clearfix;
@@ -8,15 +8,15 @@
 .slider-wrapper {
   width: 100%;
   margin: 0;
-  @media (min-width: 1140px) {
-    width: 1130px;
+  @media (min-width: 1180px) {
+    width: 1170px;
     margin: 0 auto;
   }
   @include clearfix;
 }
 
 .sliderBox {
-  margin-top: 153px;
+  margin-top: 157px;
   width: 100%;
   float: none;
   @media (min-width: 460px) {
@@ -34,7 +34,7 @@
       padding-left: 0;
       line-height: 1.12;
       @media (min-width: 1200px) {
-        padding-left: 50px;
+        padding-left: 68px;
       }
       @media (min-width: 320px) and (max-width: 1130px) {
         font-size: calc(0.0401 * 100vw + 6.168px);
@@ -51,7 +51,7 @@
       padding-left: 0;
       font-size: 11px;
       @media (min-width: 1200px) {
-        padding-left: 57px;
+        padding-left: 77px;
       }
       @media (min-width: 320px) and (max-width: 900px) {
         font-size: calc(0.0095 * 100vw + 7.96px);
@@ -63,7 +63,7 @@
 }
 
 .slider {
-  padding-bottom: 85px;
+  padding-bottom: 83px;
   padding-left:10px;
   padding-right:10px;
   @media (min-width: 1160px) {
@@ -80,7 +80,7 @@
           background-repeat: no-repeat;
           background-size: cover;
           float: right;
-          margin-top: 42.1px;
+          margin-top: 43.1px;
           margin-left: 0;
           border-radius: 50%;
           display: block;
@@ -108,7 +108,7 @@
           width: 623px;
           height: 617px;
           float: left;
-          margin-left: -5.5px;
+          margin-left: -3.5px;
         }
       }
 }

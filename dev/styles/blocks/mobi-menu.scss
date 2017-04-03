@@ -1,0 +1,26 @@
+.mobi-menu_icon {
+  @include clearfix;
+  width: 34px;
+  overflow: hidden;
+}
+
+.mobi-list {
+  @include clearfix;
+}
+.mobi-menu {
+  background-color: #000;
+  display: block;
+  padding: 13px 0 15px 9px;
+  @media (min-width: 650px) {
+    display: none;
+  }
+}
+
+.mobi-icon_mod-visable {
+  font-size: 25px;
+  color: #fff;
+}
+
+.mobi-list__elem {
+  float: left;
+}
